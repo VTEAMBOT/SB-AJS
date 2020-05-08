@@ -11,8 +11,13 @@ from time import sleep
 import time, random, multiprocessing, sys, json, codecs, threading, traceback, glob, re, string, asyncio, os, requests, subprocess, six, urllib, urllib.parse
 import time, random, pytz, atexit, ctypes, livejson, sys, shutil, json, codecs, ast, threading, glob, re, string, asyncio, os, traceback, requests, six, unicodedata, subprocess, signal
 XeberlhynWaktu = time.time()
+
 XeberlhynBoss = LINE("TAROK TOKEN UTAMA SB DISINI",appName="IOS\t10.1.1\tiOS\t13.3.1")
 XeberlhynAJS = LINE("TAROK TOKEN ANTIJS DISINI",appName="IOS\t10.1.1\tiOS\t13.3.1")
+
+#XeberlhynBoss = LINE("EMAIL SB","PAWORD EMAIL SB DISINI")
+#XeberlhynAJS = LINE("EMAIL AJS","PAWORD EMAIL AJS DISINI")
+
 print ("= SelfBot Antijs Succes Login =")
 MyCreatorXeberlhyn = OEPoll(XeberlhynBoss)
 call = XeberlhynBoss
